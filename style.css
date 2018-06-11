@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+  color: darkcyan;
+}
+.button {
+  text-align: right;
+}
+button {
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: darkcyan;
+}
+.aboutblob {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  background-color: white;
+  width: 350px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 15px;
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: darkcyan;
+
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: darkred;
+  font-size: 40px;
+  margin-top:20px;
+}
+.intro {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.map {
+  position: relative;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 500px;
+}
+
+#map {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: darkcyan;
+  margin-bottom: 20px;
+  width: 100%;
+
+
+}
+.clickable {
+  width: 75px;
+  position: absolute;
+}
+#pigeon1 {
+  top: 64%;
+  left: 40%;
+}
+
+#pigeon2 {
+  top: 78%;
+  left: 40%;
+
+}
+#pigeon3 {
+  top: 59%;
+  left: 40%;
+}
+
+#pigeon4 {
+  top: 6%;
+  left: 30%;
+}
+
+#pigeon5 {
+  top: 54%;
+  left: 70%;
+}
+
+#pigeon6 {
+  top: 50%;
+  left: 40%;
+}
+
+#pigeon7 {
+  top: 58%;
+  left: 46%;
+}
+
+#pigeon8 {
+  top: 61%;
+  left: 28%;
+}
+
+#pigeon9 {
+  top: 52%;
+  left: 23%;
+}
+
+.pop {
+  position: absolute;
+  width: 450px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: darkcyan;
+
+}
+
+#henrypop {
+  top: 60%;
+  left:15%;
+
+
+}
+
+#babkapop {
+  top: 80%;
+  left:17%;
+
+}
+
+#joannapop {
+  top: 62%;
+  left:20%;
+
+}
+#jeremypop {
+  top: 10%;
+  left: 15%;
+}
+
+#sufganiotpop {
+  top: 58%;
+  left: 50%;
+}
+
+#debombpop {
+  top: 52%;
+  left: 10%;
+}
+
+#crunchypop {
+  top: 60%;
+  left: 45%;
+}
+
+#bibblepop {
+  top: 63%;
+  left: 10%;
+}
+
+#beardpop {
+  top: 54%;
+  left: 10%;
+}
+
+@media (max-width: 600px) {
+  /* small screens */
+  .intro {
+    font-size: 15px;
+  }
+  #map {
+    width: 400px;
+  }
+  button {
+    margin-right: 0px;
+  }
+  .aboutblob {
+    right: 0px;
+    font-size: 12px;
+    width: 300px;
+  }
+}
